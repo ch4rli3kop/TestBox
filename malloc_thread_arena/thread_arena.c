@@ -1,5 +1,6 @@
 /* Per thread arena example. */
-/*compile gcc -o thread_arena thread_arena -lpthread*/
+/* Compile gcc -o thread_arena thread_arena -lpthread */
+/* This code was derived from https://sploitfun.wordpress.com/2015/02/10/understanding-glibc-malloc/ */
 #include <stdio.h>
 #include <stdlib.h>
 #include <pthread.h>
